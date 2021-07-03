@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bold {
+    font-weight: bold;
+}
+.size32 {
+    font-size: 32px;
+}
+.ft20 {
+    font-size: 20px;
+} 
+section#banner {
+    height: 60vh;
+    background-image: url(../img/home/banner-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+section.make-a-bid {
+    height: 75vh;
+    background: url(../img/home/make\ a\ bid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bs-example{
+    margin: 20px;
+}
+.accordion .fa{
+    margin-right: 0.5rem;
+}
+.hl {
+    width: 10vw;
+    height: 3px;
+    margin: 0 auto;
+    background: #185BBE;
+}
+@media screen and (max-width:535px) {
+    .size32 {
+        font-size: 22px
+    }
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bidwin</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script>
+            $(document).ready(function(){
+    // Add minus icon for collapse element which is open by default
+    $(".collapse.show").each(function(){
+        $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+    });
+    
+    // Toggle plus minus icon on show hide of collapse element
+    $(".collapse").on('show.bs.collapse', function(){
+        $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+    }).on('hide.bs.collapse', function(){
+        $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+    });
+});
+        </script>
+</head>
+
+<body>
+    <header class="d-flex justify-content-center shadow-lg">
+        <img class="img-fluid py-4" src="./img/home/logo.png" alt="">
+    </header>
+    <div class="text-center p-5 text-primary bold size32">
+        <span class="d-block">Own products at a fraction of</span>
+        <span>their price!</span>
+    </div>
+    <Section id="banner" class="h-lg-75">
+        <div class="yellow-images d-flex justify-content-between w-100 h-75">
+            <div class="yellow-dot-img align-items-start d-none d-lg-flex">
+                <img src="./img/home/yellowDot.png" alt="" class="img-fluid">
+            </div>
+            <div class="yellow-dot-img d-flex align-items-end d-none d-lg-flex h-100">
+                <img src="./img/home/yellowDot.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </Section>
+
+    <section id="group79-img">
+        <div class="group-img">
+            <img class="img-fluid w-100" src="./img/home/Group 79.png" alt="">
+        </div>
+    </section>
+
+    <section class="make-a-bid my-4 py-5">
+        <h5 class="text-light text-center pt-5">just make a bid</h5>
+        <h1 class="text-light size32 text-center py-3">Welcome to BidWin</h1>
+        <div class="container-fluid d-flex justify-content-center w-100">
+            <div class="row">
+                <div class="col-6 text-light">
+                    <div class="bold size32 pt-5 pl-5">01.</div>
+                    <span class="d-block size32">Own Products You</span> <span class="d-block size32">Can’t
+                        Afford</span>
+                </div>
+                <div class="col-6 text-light">
+                    <div class="bold size32 pt-5 pl-5">02.</div>
+                    <span class="d-block size32">Save Money On</span> <span class="d-block size32"> Purchases</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product text-center">
+        <span class="text center d-block">just make a bid</span>
+        <span class="bold size32 text-primary">Products</span>
+        <div class="hl"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 p-3">
+                    <img class="img-fluid" src="./img/home/shoes.png" alt="">
+                    <span class="d-block p-2 bold">BidWin City</span>
+                    <span class="d-block">Lorem ipsum dolor sit amet,</span>
+                    <span class="d-block">consectetur adipiscing elit. Sed</span>
+                    <span class="d-block pb-2">sed duis amet dolor.</span>
+                    <button class="btn btn-outline-primary"><i class="fas fa-arrow-alt-circle-right text-primary"></i>
+                        BID NOW</button>
+                </div>
+                <div class="col-lg-3 col-md-6 p-3">
+                    <img class="img-fluid" src="./img/home/phones.png" alt="">
+                    <span class="d-block p-2 bold">BidWin City</span>
+                    <span class="d-block">Lorem ipsum dolor sit amet,</span>
+                    <span class="d-block">consectetur adipiscing elit. Sed</span>
+                    <span class="d-block pb-2">sed duis amet dolor.</span>
+                    <button class="btn btn-outline-primary"><i class="fas fa-arrow-alt-circle-right text-primary"></i>
+                        BID NOW</button>
+                </div>
+                <div class="col-lg-3 col-md-6 p-3">
+                    <img class="img-fluid" src="./img/home/undies.png" alt="">
+                    <span class="d-block p-2 bold">BidWin City</span>
+                    <span class="d-block">Lorem ipsum dolor sit amet,</span>
+                    <span class="d-block">consectetur adipiscing elit. Sed</span>
+                    <span class="d-block pb-2">sed duis amet dolor.</span>
+                    <button class="btn btn-outline-primary"><i class="fas fa-arrow-alt-circle-right text-primary"></i>
+                        BID NOW</button>
+                </div>
+                <div class="col-lg-3 col-md-6 p-3">
+                    <img class="img-fluid" src="./img/home/bag.png" alt="">
+                    <span class="d-block p-2 bold">BidWin City</span>
+                    <span class="d-block">Lorem ipsum dolor sit amet,</span>
+                    <span class="d-block">consectetur adipiscing elit. Sed</span>
+                    <span class="d-block pb-2">sed duis amet dolor.</span>
+                    <button class="btn btn-outline-primary"><i class="fas fa-arrow-alt-circle-right text-primary"></i>
+                        BID NOW</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 p-3">
+                    <img class="img-fluid" src="./img/home/shoes.png" alt="">
+                    <span class="d-block p-2 bold">BidWin City</span>
+                    <span class="d-block">Lorem ipsum dolor sit amet,</span>
+                    <span class="d-block">consectetur adipiscing elit. Sed</span>
+                    <span class="d-block pb-2">sed duis amet dolor.</span>
+                    <button class="btn btn-outline-primary"><i class="fas fa-arrow-alt-circle-right text-primary"></i>
+                        BID NOW</button>
+                </div>
+                <div class="col-lg-3 col-md-6 p-3">
+                    <img class="img-fluid" src="./img/home/phones.png" alt="">
+                    <span class="d-block p-2 bold">BidWin City</span>
+                    <span class="d-block">Lorem ipsum dolor sit amet,</span>
+                    <span class="d-block">consectetur adipiscing elit. Sed</span>
+                    <span class="d-block pb-2">sed duis amet dolor.</span>
+                    <button class="btn btn-outline-primary"><i class="fas fa-arrow-alt-circle-right text-primary"></i>
+                        BID NOW</button>
+                </div>
+                <div class="col-lg-3 col-md-6 p-3">
+                    <img class="img-fluid" src="./img/home/undies.png" alt="">
+                    <span class="d-block p-2 bold">BidWin City</span>
+                    <span class="d-block">Lorem ipsum dolor sit amet,</span>
+                    <span class="d-block">consectetur adipiscing elit. Sed</span>
+                    <span class="d-block pb-2">sed duis amet dolor.</span>
+                    <button class="btn btn-outline-primary"><i class="fas fa-arrow-alt-circle-right text-primary"></i>
+                        BID NOW</button>
+                </div>
+                <div class="col-lg-3 col-md-6 p-3">
+                    <img class="img-fluid" src="./img/home/bag.png" alt="">
+                    <span class="d-block p-2 bold">BidWin City</span>
+                    <span class="d-block">Lorem ipsum dolor sit amet,</span>
+                    <span class="d-block">consectetur adipiscing elit. Sed</span>
+                    <span class="d-block pb-2">sed duis amet dolor.</span>
+                    <button class="btn btn-outline-primary"><i class="fas fa-arrow-alt-circle-right text-primary"></i>
+                        BID NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="exciting">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <span class="d-block bold pt-4">Just make a bid</span>
+                    <span class="d-block size32 text-primary">Looking to get into the </span>
+                    <span class="d-block size32 text-primary">exciting world of online</span>
+                    <span class="d-block size32 text-primary">bidding?</span>
+                    <span class="d-block ft20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                    <span class="d-block ft20">Ante consequat id vitae vestibulum euismod. Ac id sapien</span>
+                    <span class="d-block ft20">pellentesque posuere. Ultrices risus, sem adipiscing ut id.</span>
+                    <span class="d-block ft20">Semper nullam in tempor amet molestie vel semper</span>
+                    <span class="d-block ft20">interdum morbi.</span>
+                </div>
+                <div class="col-lg-6 col-sm-12 pt-md-5">
+                    <img src="./img/home/tablet.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="plan">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-lg-7 col-sm-12">
+                    <img class="img-fluid" src="./img/home/leaf.png" alt="">
+                </div>
+                <div class="col-lg-5 col-sm-12 pt-md-5 position-initial">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    Which plan is good for me the?
+                                    <button class="btn btn-link float-end" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <span class="d-block">Trends, vision dominates a lot of our subconscious</span>
+                                    <span class="d-block">interpretation of the world around us. On top it, pleasing</span>
+                                    <span class="d-block">images create better user experience.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    Do I have to commit to a program?
+                                    <button class="btn btn-link collapsed float-end" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="card-body">
+                                        <span class="d-block">Trends, vision dominates a lot of our subconscious</span>
+                                        <span class="d-block">interpretation of the world around us. On top it, pleasing</span>
+                                        <span class="d-block">images create better user experience.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    What payment methods are available?
+                                    <button class="btn btn-link collapsed float-end" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="card-body">
+                                        <span class="d-block">Trends, vision dominates a lot of our subconscious</span>
+                                        <span class="d-block">interpretation of the world around us. On top it, pleasing</span>
+                                        <span class="d-block">images create better user experience.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
